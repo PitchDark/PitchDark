@@ -14,7 +14,8 @@ The following **required** functionality is completed:
 
 The following **stretch** features are implemented:
 
-- [ ] 
+- [ ] Sharing pictures with friends through the app
+- [ ] Favoriting a place
 
 
 The following **additional** features are implemented:
