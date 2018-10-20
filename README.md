@@ -1,8 +1,16 @@
 # Final Project - *PitchDark*
 
-**PitchDark** An App for lovers of the dark. Users will be able to find the nearest place with least amount of light pollution for star gazing. Night time photography lovers can post their dark shots to display in the feed. Users can rate places they visited in the dark for various activities and help other find suggestions.
+**PitchDark**
+An App for lovers of the dark. Users will be able to find the nearest place with least amount of light pollution for star gazing. Night time photography lovers can post their dark shots to display in the feed. Users can rate places they visited in the dark for various activities and help other find suggestions.
+
+Users Will see the location suggestions with pictures and rating , Final Demo  includes the description of application on iphone including various versions. We leverage maps and camera 
+
+One of the technical concern we have is lack of number of devices to test the application. 
+
+
 
 Time spent: **X** hours spent in total
+
 
 ## User Stories
 
@@ -22,8 +30,11 @@ The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 
+
+
 ## Third Party APIs
 - [datastro](https://www.datastro.eu/explore/dataset/imageserver/api/?disjunctive.limitingmag&disjunctive.cloudcover&disjunctive.constellation&disjunctive.country&location=11,34.42135,-119.40525&basemap=mapbox.light).
+
 
 ## Video Walkthrough
 
