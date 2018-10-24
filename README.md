@@ -20,8 +20,10 @@ The following **required** functionality is completed:
 
 - [ ] Login page - Single Sign-On using facebook and gmail using Firebase
 - [ ] Feed for posting night life pictures
+- [ ] Detail page to show the details of each picture including the user took the picture, location, weather forecast
 - [ ] Location services to help users find closest place with least amout of Light Pollution for star gazing.
-- [ ] Weather forecast favorable for stargazing and other activities in the dark.
+- [ ] Map to see the images on map
+- [ ] Profile page for user which has the pictures taken by user
 
 The following **stretch** features are implemented:
 
