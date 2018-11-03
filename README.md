@@ -1,54 +1,51 @@
-# Project 4 - *Instagram App*
+# Final Project - *PitchDark*
 
-**Instagram App** is a photo sharing app using Parse as its backend.
+**PitchDark**
+An App for lovers of the dark. Users will be able to find the nearest place with least amount of light pollution for star gazing. Night time photography lovers can post their dark shots to display in the feed. Users can rate places they visited in the dark for various activities and help other find suggestions.
 
-Time spent: **10** hours spent in total
+Users Will see the location suggestions with pictures and rating.
+For final demo, we will have the app installed on a couple devices and will test all the functionalities of the app in a real world scenario. 
+We leverage maps, camera, and location services of iOS. 
+
+One of the technical concerns we have is lack of number of devices to test the application. 
+
+
+
+Time spent: **X** hours spent in total
+
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [x] User can sign up to create a new account using Parse authentication (+1pt)
-- [x] User can log in and log out of his or her account (+1pt)
-- [x] The current signed in user is persisted across app restarts (+1pt)
-- [x] User can take a photo, add a caption, and post it to "Instagram" (+2pt)
-- [x] User can view the last 20 posts submitted to "Instagram" (+2pt)
-- [x] User can pull to refresh the last 20 posts submitted to "Instagram" (+1pt)
-- [x] User can tap a post to view post details, including timestamp and caption (+2pt)
+- [ ] Login page - Single Sign-On using facebook and gmail using Firebase
+- [ ] Feed for posting night life pictures
+- [ ] Detail page to show the details of each picture including the user took the picture, location, weather forecast
+- [ ] Location services to help users find closest place with least amout of Light Pollution for star gazing.
+- [ ] Map to see the images on map
+- [ ] Profile page for user which has the pictures taken by user
 
 The following **stretch** features are implemented:
 
-- [x] Style the login page to look like the real Instagram login page (+1pt)
-- [ ] Style the feed to look like the real Instagram feed (+1pt)
-- [ ] User can use a tab bar to switch between all "Instagram" posts and posts published only by the user. AKA, tabs for Home Feed and Profile (+2pt)
-- [ ] Add a custom camera using the CameraManager library (+1pt)
-- [ ] User can load more posts once he or she reaches the bottom of the feed using infinite scrolling (+2pt)
-- [x] Show the username and creation time for each post using section headers (+1pt)
-   - If you use TableView Section Headers to display the the username and creation time, you'll get "sticky headers" similar to the actual Instagram app.
-- [x] After the user submits a new post, show a progress HUD while the post is being uploaded to Parse (+1pt)
-- User Profiles:
-   - [ ] Allow the logged in user to add a profile photo (+2pt)
-   - [ ] Display the profile photo with each post (+1pt)
-   - [ ] Tapping on a post's username or profile photo goes to that user's profile page (+2pt)
-- [ ] User can comment on a post and see all comments for each post in the post details screen (+3pt)
-- [ ] User can like a post and see number of likes for each post in the post details screen (+1pt)
-- [x] Run your app on your phone and use the camera to take the photo (+1pt)
+- [ ] Sharing pictures with friends through the app
+- [ ] Favoriting a place
 
 
 The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 
-Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.I really like to learn about infinite scrolling. 
-2.
+
+## Third Party APIs
+- [datastro](https://www.datastro.eu/explore/dataset/imageserver/api/?disjunctive.limitingmag&disjunctive.cloudcover&disjunctive.constellation&disjunctive.country&location=11,34.42135,-119.40525&basemap=mapbox.light).
+
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/sOe754D.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -56,7 +53,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 List an 3rd party libraries, icons, graphics, or other assets you used in your app.
 
-- [AFNetworking](https://github.com/AFNetworking/AFNetworking) - networking task library
+- 
 
 
 ## Notes
@@ -65,7 +62,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [2018] [Sanaz Khosravi]
+    Copyright [2018] [PitchDark]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -78,3 +75,172 @@ Describe any challenges encountered while building the app.
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+
+# Final Project - *PitchDark*
+
+**PitchDark**
+An App for lovers of the dark. Users will be able to find the nearest place with least amount of light pollution for star gazing. Night time photography lovers can post their dark shots to display in the feed. Users can rate places they visited in the dark for various activities and help other find suggestions.
+
+Users Will see the location suggestions with pictures and rating.
+For final demo, we will have the app installed on a couple devices and will test all the functionalities of the app in a real world scenario. 
+We leverage maps, camera, and location services of iOS. 
+
+One of the technical concerns we have is lack of number of devices to test the application. 
+
+
+
+Time spent: **10** hours spent in total
+
+
+## User Stories
+
+The following **required** functionality is completed:
+
+- [X] Firebase set-up
+- [X] Login page - Single Sign-On using gmail using Firebase
+- [X] User sign out
+- [X] Feed for posting night life pictures - UI
+- [X] Detail page to show the details of each picture including the user took the picture, location, weather forecast - UI
+- [ ] Location services to help users find closest place with least amount of Light Pollution for star gazing.
+- [ ] Map to see the images on map
+- [X] Profile page for user which has the pictures taken by user - UI
+- [X] Saving image to Firebase
+- [X] Fetching images from Firebase and loading them into feed
+
+The following **stretch** features are implemented:
+
+- [ ] Sharing pictures with friends through the app
+- [ ] Favoriting a place
+
+
+The following **additional** features are implemented:
+
+- [ ] List anything else that you can get done to improve the app functionality!
+
+
+
+## Third Party APIs
+- [datastro](https://www.datastro.eu/explore/dataset/imageserver/api/?disjunctive.limitingmag&disjunctive.cloudcover&disjunctive.constellation&disjunctive.country&location=11,34.42135,-119.40525&basemap=mapbox.light).
+
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://i.imgur.com/1VO5Alc.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Credits
+
+List an 3rd party libraries, icons, graphics, or other assets you used in your app.
+
+- 
+
+
+## Notes
+
+Describe any challenges encountered while building the app.
+
+## License
+
+    Copyright [2018] [PitchDark]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+# Final Project - *PitchDark*
+
+**PitchDark**
+An App for lovers of the dark. Users will be able to find the nearest place with least amount of light pollution for star gazing. Night time photography lovers can post their dark shots to display in the feed. Users can rate places they visited in the dark for various activities and help other find suggestions.
+
+Users Will see the location suggestions with pictures and rating.
+For final demo, we will have the app installed on a couple devices and will test all the functionalities of the app in a real world scenario. 
+We leverage maps, camera, and location services of iOS. 
+
+One of the technical concerns we have is lack of number of devices to test the application. 
+
+
+
+Time spent: **12** hours spent in total
+
+
+## User Stories
+
+The following **required** functionality is completed:
+
+- [X] Parse server set up
+- [X] User registration
+- [X] User login in
+- [X] user log out
+- [X] Logged in user is pressistant
+- [X] User can see a list of images posted along with their caption and location
+- [X] User can see the images in detail view 
+- [X] User can get direction to the location of captured image
+- [X] User can share the image
+- [X] User can take or pick a photo and save it in Parse along with description and location
+- [X] User can search for a location to add it for a post
+- [ ] User should be able to get weather information of each picture's location
+- [ ] User should be able to get light pollution information of each picture's location
+
+The following **stretch** features are implemented:
+
+- [ ] User should be able to leave comment for a post
+- [ ] Favoriting a place
+
+
+The following **additional** features are implemented:
+
+- [ ] List anything else that you can get done to improve the app functionality!
+
+
+
+## Third Party APIs
+- [datastro](https://www.datastro.eu/explore/dataset/imageserver/api/?disjunctive.limitingmag&disjunctive.cloudcover&disjunctive.constellation&disjunctive.country&location=11,34.42135,-119.40525&basemap=mapbox.light).
+
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://i.imgur.com/isriMeN.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Credits
+
+List an 3rd party libraries, icons, graphics, or other assets you used in your app.
+
+- 
+
+
+## Notes
+
+Describe any challenges encountered while building the app.
+
+## License
+
+    Copyright [2018] [PitchDark]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
