@@ -207,7 +207,8 @@ The following **additional** features are implemented:
 
 ## Third Party APIs
 - [datastro](https://www.datastro.eu/explore/dataset/imageserver/api/?disjunctive.limitingmag&disjunctive.cloudcover&disjunctive.constellation&disjunctive.country&location=11,34.42135,-119.40525&basemap=mapbox.light).
--[Opean Weather](https://openweathermap.org).
+
+-[Open Weather](https://openweathermap.org).
 
 
 ## Video Walkthrough
